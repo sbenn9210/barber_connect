@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const passport = require("passport");
 
 const users = require("./routes/api/users");
-const profiles = require("./routes/api/profiles");
+const profiles = require("./routes/api/profile");
 const posts = require("./routes/api/posts");
 const keys = require("./config/keys");
 const app = express();
@@ -32,7 +32,7 @@ require("./config/passport")(passport);
 
 //Use routes
 app.use("/api/users", users);
-app.use("/api/profiles", profiles);
+app.use("/api/profile", profiles);
 app.use("/api/posts", posts);
 
 //process.env.port is needed when deploying to heroku
