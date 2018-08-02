@@ -32,13 +32,15 @@ module.exports = function validateProfileInput(data) {
 
   if (!isEmpty(data.youtube)) {
     if (!Validator.isURL(data.youtube)) {
-      errors.youtube= "Not a valid URL";
+      errors.youtube = "Not a valid URL";
     }
   }
 
   if (!isEmpty(data.facebook)) {
     if (!Validator.isURL(data.facebook)) {
       errors.facebook = "Not a valid URL";
+    }
+  }
 
   if (!isEmpty(data.linkedin)) {
     if (!Validator.isURL(data.linkedin)) {
