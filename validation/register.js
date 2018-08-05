@@ -14,11 +14,11 @@ module.exports = function validateRegisterInput(data) {
   }
 
   if (Validator.isEmpty(data.name)) {
-    errors.name = "Name feild is required";
+    errors.name = "Name field is required";
   }
 
   if (Validator.isEmpty(data.email)) {
-    errors.email = "Email feild is required";
+    errors.email = "Email field is required";
   }
 
   if (!Validator.isEmail(data.email)) {
@@ -34,7 +34,7 @@ module.exports = function validateRegisterInput(data) {
   }
 
   if (Validator.isEmpty(data.password2)) {
-    errors.password2 = "Confirm password feild is required";
+    errors.password2 = "Confirm password field is required";
   }
 
   if (!Validator.equals(data.password, data.password2)) {
