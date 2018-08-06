@@ -4,7 +4,8 @@ img {
 
 .landing {
   position: relative;
-  background: url("./img/showcase.jpg") no-repeat;
+  background: url("https://images.unsplash.com/photo-1523532855831-190c384cb39a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=2c0259dd51396f7762ff925c174e6303")
+    no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -36,4 +37,14 @@ img {
 
 .form-control::placeholder {
   color: #bbb !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
