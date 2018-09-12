@@ -2,7 +2,7 @@
 App connecting barbers and salons to customers.
 
 ## What It Is
-This is a full stack web app allowing barbers to create profiles, hightlight skills, list pricing, and automate scheduling in order to provide a better experience to their customers. 
+This is a full stack web app allowing barbers to create profiles, hightlight skills, list pricing, and automate scheduling in order to provide a better experience for customers. 
 
 ## What I Used
 * React
