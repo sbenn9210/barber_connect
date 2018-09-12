@@ -17,7 +17,6 @@ This is a full stack web app allowing barbers to create profiles, hightlight ski
 * Passport
 * Font Awesome
 
-## Challenges and Solutions
 
 ## MVP (Minimum Viable Product)
 * Create a MongoDB database to contain the comprehensive list of barbers and detailed information about their business
@@ -51,5 +50,5 @@ Barber Experience and Skills
 ## Github Link
 [BarberSide](https://github.com/sbenn9210/barber_side)
 
-## Code Examples
+
 
